@@ -14,7 +14,7 @@ of Atlantic Europe using a lot of maps generated in R.
 Installation
 ------------
 
-To compile `goelo.eu`:
+To compile and deploy the website:
 
     $ git clone git://github.com/vinc/goelo.eu.git
     $ cd goelo.eu
