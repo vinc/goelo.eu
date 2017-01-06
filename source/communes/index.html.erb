@@ -1,0 +1,57 @@
+---
+title: Communes
+---
+
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="/">Home</a>
+  /
+  <span class="breadcrumb-item active"><%= current_page.data.title %></span>
+</nav>
+
+<section id="geography" class="screen">
+  <h1 class="center"><%= current_page.data.title %></h1>
+
+  <div id="description" class="text">
+    <div class="media-float-left">
+      <img src="/images/goelo-communes.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        The Goelo can be defined by the administrative limits of <%= data.communes.count %> communes:
+        <%= data.communes.map { |commune| link_to(commune.title, "/communes/#{commune.name}.html") }.join(", ") %>.
+      </p>
+    </div>
+  </div>
+
+  <div id="summary" class="text">
+    <h2>Summary</h2>
+    <table>
+      <tr>
+        <th>name</th>
+        <th>surface</th>
+        <th>population</th>
+        <th>density</th>
+      </tr>
+      <% data.communes.each do |commune| %>
+        <tr>
+          <td><%= commune.title %></td>
+          <td><%= commune.surface %></td>
+          <td><%= commune.population %></td>
+          <td><%= commune.density %></td>
+        </tr>
+      <% end %>
+      <tr>
+        <td>Total</td>
+        <td><%= data.communes.map(&:surface).map(&:to_f).reduce(&:+).round(2) %></td>
+        <td><%= data.communes.map { |c| c.population.to_s.tr(" ", "").to_i }.reduce(&:+).to_s.reverse.scan(/\d{1,3}/).join(" ").reverse %></td>
+        <td><%= (data.communes.map { |c| c.population.to_s.tr(" ", "").to_i }.reduce(&:+) / data.communes.map(&:surface).map(&:to_f).reduce(&:+)).round(0) %></td>
+      </tr>
+    </table>
+    <p>Note: surfaces are expressed in square kilometers</p>
+    <p>Source: <a href="https://www.insee.fr/fr/statistiques/2387611?sommaire=2119504">Populations légales 2013</a>, INSEE (2013)</p>
+  </div>
+
+  <div class="text">
+    <p>Back to the <a href="/">main page</a></p>
+  </div>
+</section>

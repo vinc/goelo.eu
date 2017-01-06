@@ -1,0 +1,240 @@
+---
+title: Goelo.eu
+---
+
+<section id="landing-screen" class="screen full-screen">
+  <h1 class="center">Goelo</h1>
+  <h2 class="center">A biogeographic area of Atlantic Europe</h2>
+</section>
+
+<section id="summary-screen" class="screen dark-screen full-screen center-screen">
+  <h1 class="center">Contents</h1>
+
+  <div class="text">
+    <ol class="toc">
+      <li><a href="#geography">Geography</a>
+        <ol>
+          <li><a href="#naturel-frontiers">Natural Frontiers</a></li>
+          <li><a href="#administrative-limits">Administrative Limits</a></li>
+          <li><a href="#location">Location</a></li>
+        </ol>
+      </li>
+      <li><a href="#climatology">Climatology</a>
+        <ol>
+          <li><a href="#temperature">Temperature</a></li>
+          <li><a href="#precipitation">Precipitation</a></li>
+        </ol>
+      </li>
+      <li><a href="#demography">Demography</a>
+        <ol>
+          <li><a href="#population">Population</a></li>
+        </ol>
+      </li>
+      <li><a href="#ecology">Ecology</a>
+        <ol>
+          <li><a href="#land-usage">Land Usage</a></li>
+          <li><a href="#tree-cover">Tree Cover</a></li>
+          <li><a href="#conservation">Conservation</a></li>
+        </ol>
+      </li>
+    </ol>
+  <div class="text">
+</section>
+
+<section id="geography" class="screen">
+  <h1 class="center">Geography</h1>
+
+  <div id="natural-frontiers" class="text">
+    <h2>Natural Frontiers</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-rivers.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        The Goelo is a coastal region of the Atlantic sea delimited by three
+        <a href="/rivers.html">rivers</a> roughly forming a rectangular shape,
+        with a length of 40 kilometers that extend 10 kilometers inland, for
+        a total area of 530 square kilometers.
+      </p>
+      <p>
+        The <a href="/rivers.html#trieux">Trieux</a> river in the north and
+        the <a href="/rivers.html#gouet">Gouet</a> in the south reach the
+        sea, while the <a href="/rivers.html#leff">Leff</a> forming the east
+        side of the region ends its course in the Trieux.
+      </p>
+      <p>
+        The southeast of the region is more elevated, with some hills reaching
+        250 meters, due to the presence of the
+        <a href="/topology.html">Quintin massif</a> where the sources of the
+        three rivers are located.
+      </p>
+    </div>
+  </div>
+
+  <div id="administrative-limits" class="text">
+    <h2>Administrative Limits</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-communes.png" />
+    </div>
+    <div class="media-body">
+      <p>
+       The region can also be defined by the administrative limits of <%= data.communes.count %> <%= link_to("communes", "/communes") %>:
+        <%= data.communes.map { |commune| link_to(commune.title, "/communes/#{commune.name}.html") }.join(", ") %>.
+      </p>
+    </div>
+  </div>
+
+  <div id="location" class="text">
+    <h2>Location</h2>
+    <p>
+      The communes are all part of Saint-Brieux arrondissement, located
+      in <a href="/cotes-armor.html">Côtes d'Armor</a>, a department in
+      the north of Brittany.
+    </p>
+
+    <div class="media-right media-full">
+      <img src="/images/brittany-goelo.png" />
+    </div>
+
+    <p>
+      And Brittany is situated in the northwest of France, at the center
+      of the biogeographical region <a href="https://en.wikipedia.org/wiki/Atlantic_Europe">Atlantic Europe</a>.
+    </p>
+
+    <div class="media-right media-full">
+      <img src="/images/atlantic-brittany.png" />
+    </div>
+  </div>
+</section>
+
+<section id="climatology" class="screen">
+  <h1 class="center">Climatology</h1>
+
+  <div id="temperature" class="text">
+    <h2>Temperature</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-climate-annual-mean-temperature.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        The <a href="/climate.html#annual-mean-temperature">annual mean temperature</a>
+        of the Goelo is 11.0 °C (<a href="http://worldclim.org/">WorldClim 2005</a>).
+      </p>
+      <p>
+        The <a href="/climate.html#minimum-temperature">minimum temperature</a>
+        of the coldest month is 2.7 °C
+        and the <a href="/climate.html#maximum-temperature">maximum temperature</a>
+        of the warmest month is 20.8 °C.
+      </p>
+      <p>
+        The north is usually about a degree warmer than the south.
+      </p>
+    </div>
+  </div>
+
+  <div id="precipitation" class="text">
+    <h2>Precipitation</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-climate-annual-precipitation.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        The region receives in average 835 mm of <a href="/climate.html">precipitation</a>
+        every year
+        (<a href="http://worldclim.org/">WorldClim 2005</a>).
+      </p>
+      <p>
+        In average the driest and wettest months receive 42 and 102 mm of
+        precipitation respectively.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="demography" class="screen">
+  <h1 class="center">Demography</h1>
+
+  <div id="population" class="text">
+    <h2>Population</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-population.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        The Goelo has 82 582 inhabitants
+        (<a href="/communes/">INSEE 2013</a>), and a population
+        density of 156 per square kilometers.
+      </p>
+      <p>
+        The largest towns,
+        <a href="/communes/plerin.html">Plérin</a> (14394 habitants),
+        <a href="/communes/paimpol.html">Paimpol</a> (7298),
+        <a href="/communes/pordic.html">Pordic</a> (6088),
+        <a href="/communes/plouha.html">Plouha</a> (4505), and
+        <a href="/communes/binic.html">Binic</a> (3825) are all situated
+        on the coast.
+      </p>
+      <p>
+        The population density decrease inland, with small villages like
+        <a href="/communes/lanloup.html">Lanloup</a> (264), and
+        <a href="/communes/lanleff.html">Lanleff</a> (111) surrounded by
+        farms.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="ecology" class="screen">
+  <h1 class="center">Ecology</h1>
+
+  <div id="land-usage" class="text">
+    <h2>Land Usage</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-clc.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        According to CORINE Land Cover inventory
+        (<a href="http://land.copernicus.eu/pan-european/corine-land-cover">CLC 2012</a>), most of the
+        land is used by agriculture (76 %), with the rest divided between
+        artificial (13 %) and forest or semi natural areas (11 %).
+      </p>
+    </div>
+  </div>
+
+  <div id="tree-cover" class="text">
+    <h2>Tree Cover</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-forests.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        About 20% of the land is covered with trees
+        (<a href="http://earthenginepartners.appspot.com/science-2013-global-forest">Hansen 2014</a>), but there
+        are only a few <a href="/forests/">forests</a>, and most
+        of them are privately owned and used for silviculture.
+      </p>
+
+      <p>
+        The largest forests are
+        <a href="/forests/penhoat-lancerf.html">Penhoat-Lancerf</a> (600 ha)
+        and <a href="/forests/beauport.html">Beauport</a> (90 ha) in the
+        north with smaller woods like
+        <a href="/forests/beauchamp.html">Beauchamp</a> and
+        <a href="/forests/salle.html">Salle</a> in the middle of the region.
+      </p>
+    </div>
+  </div>
+
+  <div id="conservation" class="text">
+    <h2>Conservation</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-sic.png" />
+    </div>
+    <div class="media-body">
+      <p>3.15 % of the land is protected under the <a href="/conservation.html#natura2000">Natura 2000 network</a>.</p>
+
+      <p>2.45 % and 4.36 % are respectively classified as <a href="/conservation.html#znieff1">ZNIEFF type I</a> and <a href="/conservation.html#znieff2">type II</a> zones of outstanding natural areas of ecological interest.</p>
+    </div>
+  </div>
+</section>

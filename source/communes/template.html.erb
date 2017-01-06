@@ -1,0 +1,35 @@
+---
+---
+
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="/">Home</a>
+  /
+  <a class="breadcrumb-item" href="/communes/">Communes</a>
+  /
+  <span class="breadcrumb-item active"><%= title %></span>
+</nav>
+
+<section id="geography" class="screen">
+  <h1 class="center"><%= title %></h1>
+
+  <div id="description" class="text">
+    <h2>Description</h2>
+    <div class="media-float-left">
+      <img src="/images/goelo-communes-<%= name %>.png" />
+    </div>
+    <div class="media-body">
+      <p>
+        <%= title %> is a commune of the Goelo, located in the <%= location %> of the region.
+      </p>
+      <p>
+        The commune has a surface of <%= surface %> square kilometers
+        for <%= population %> inhabitants (INSEE 2013), thus a population
+        density of <%= density %> per square kilometers.
+      </p>
+    </div>
+  </div>
+
+  <div class="text">
+    <p>Back to the <a href="/">main page</a></p>
+  </div>
+</section>

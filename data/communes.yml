@@ -1,0 +1,228 @@
+- title: Binic
+  name: binic
+  location: east
+  surface: 5.83
+  population: 3 825
+  density: 656
+- title: Cohiniac
+  name: cohiniac
+  location: south
+  surface: 12.55
+  population: 407
+  density: 32
+- title: Étables-sur-Mer
+  name: etables-sur-mer
+  location: east
+  surface: 9.25
+  population: 3 022
+  density: 327
+- title: Île-de-Bréhat
+  name: ile-de-brehat
+  location: north
+  surface: 3.50
+  population: 406
+  density: 116
+- title: Kerfot
+  name: kerfot
+  location: north
+  surface: 5.82
+  population: 691
+  density: 119
+- title: La Méaugon
+  name: la-meaugon
+  location: south
+  surface: 6.75
+  population: 1 292
+  density: 191
+- title: Lanleff
+  name: lanleff
+  location: north
+  surface: 2.22
+  population: 111
+  density: 50
+- title: Lanloup
+  name: lanloup
+  location: north
+  surface: 2.54
+  population: 264
+  density: 104
+- title: Lannebert
+  name: lannebert
+  location: middle
+  surface: 7.06
+  population: 451
+  density: 64
+- title: Lantic
+  name: lantic
+  location: middle
+  surface: 15.89
+  population: 1 659
+  density: 104
+- title: Lanvollon
+  name: lanvollon
+  location: middle
+  surface: 5.07
+  population: 1 749
+  density: 345
+- title: Le Fœil
+  name: le-foeil
+  location: south
+  surface: 21.89
+  population: 1 491
+  density: 68
+- title: Paimpol
+  name: paimpol
+  location: north
+  surface: 24.03
+  population: 7 298
+  density: 304
+- title: Plaine-Haute
+  name: plaine-haute
+  location: south
+  surface: 15.87
+  population: 1 515
+  density: 95
+- title: Pléguien
+  name: pleguien
+  location: middle
+  surface: 15.74
+  population: 1 282
+  density: 81
+- title: Pléhédel
+  name: plehedel
+  location: north
+  surface: 12.69
+  population: 1 290
+  density: 102
+- title: Plélo
+  name: plelo
+  location: middle
+  surface: 44.60
+  population: 3 301
+  density: 74
+- title: Plérin
+  name: plerin
+  location: southeast
+  surface: 27.66
+  population: 14 394
+  density: 520
+- title: Plerneuf
+  name: plerneuf
+  location: south
+  surface: 8.53
+  population: 1 016
+  density: 119
+- title: Ploubazlanec
+  name: ploubazlanec
+  location: north
+  surface: 15.45
+  population: 3 057
+  density: 198
+- title: Plouézec
+  name: plouezec
+  location: north
+  surface: 28.56
+  population: 3 259
+  density: 114
+- title: Plouha
+  name: plouha
+  location: north
+  surface: 41.49
+  population: 4 505
+  density: 109
+- title: Plourhan
+  name: plourhan
+  location: middle
+  surface: 17.24
+  population: 1984
+  density: 115
+- title: Plourivo
+  name: plourivo
+  location: northwest
+  surface: 28.36
+  population: 2 224
+  density: 78
+- title: Plouvara
+  name: plouvara
+  location: southwest
+  surface: 22.95
+  population: 1 133
+  density: 49
+- title: Pludual
+  name: pludual
+  location: middle
+  surface: 9.62
+  population: 749
+  density: 78
+- title: Pordic
+  name: pordic
+  location: east
+  surface: 28.83
+  population: 6 088
+  density: 211
+- title: Quintin
+  name: quintin
+  location: south
+  surface: 3.12
+  population: 2 822
+  density: 904
+- title: Saint-Donan
+  name: saint-donan
+  location: south
+  surface: 22.94
+  population: 1 453
+  density: 63
+- title: Saint-Quay-Portrieux
+  name: saint-quay-portrieux
+  location: east
+  surface: 4.42
+  population: 2 995
+  density: 678
+- title: Trégomeur
+  name: tregomeur
+  location: middle
+  surface: 10.80
+  population: 931
+  density: 86
+- title: Tréguidel
+  name: treguidel
+  location: middle
+  surface: 6.68
+  population: 604
+  density: 90
+- title: Tréméloir
+  name: tremeloir
+  location: middle
+  surface: 4.80
+  population: 797
+  density: 166
+- title: Tréméven
+  name: tremeven
+  location: north
+  surface: 5.18
+  population: 345
+  density: 67
+- title: Trémuson
+  name: tremuson
+  location: south
+  surface: 6.29
+  population: 1 981
+  density: 315
+- title: Tressignaux
+  name: tressignaux
+  location: middle
+  surface: 7.39
+  population: 659
+  density: 89
+- title: Tréveneuc
+  name: treveneuc
+  location: east
+  surface: 6.76
+  population: 773
+  density: 114
+- title: Yvias
+  name: yvias
+  location: north
+  surface: 11.75
+  population: 759
+  density: 65

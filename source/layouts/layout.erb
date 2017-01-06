@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= current_page.data.title || "Goelo.eu" %></title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab">
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <%= yield %>
+
+    <footer class="dark-screen">
+      <div class="text">
+        <p class="center">License <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
