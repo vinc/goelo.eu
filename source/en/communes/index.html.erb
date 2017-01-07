@@ -3,7 +3,7 @@ title: Communes
 ---
 
 <nav class="breadcrumb">
-  <a class="breadcrumb-item" href="/">Home</a>
+  <a class="breadcrumb-item" href="/en/">Home</a>
   /
   <span class="breadcrumb-item active"><%= current_page.data.title %></span>
 </nav>
@@ -18,7 +18,7 @@ title: Communes
     <div class="media-body">
       <p>
         The Goelo can be defined by the administrative limits of <%= data.communes.count %> communes:
-        <%= data.communes.map { |commune| link_to(commune.title, "/communes/#{commune.name}.html") }.join(", ") %>.
+        <%= data.communes.map { |commune| link_to(commune.title, "/en/communes/#{commune.name}.html") }.join(", ") %>.
       </p>
     </div>
   </div>
@@ -52,6 +52,6 @@ title: Communes
   </div>
 
   <div class="text">
-    <p>Back to the <a href="/">main page</a></p>
+    <p>Back to the <a href="/en/">main page</a></p>
   </div>
 </section>

@@ -18,7 +18,7 @@ page '/*.txt', layout: false
 
 after_configuration do
   data.communes.each do |commune|
-    proxy "/communes/#{commune.name}.html", "/communes/template.html",
+    proxy "/en/communes/#{commune.name}.html", "/en/communes/template.html",
       :ignore => true,
       :locals => commune
   end
