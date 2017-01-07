@@ -148,14 +148,13 @@ footer .text {
   background: white;
 }
 
-#summary-screen ol {
-  counter-reset: section;
-  list-style-type: none;
+ol.toc {
+  padding: 0;
 
-  li::before {
-    counter-increment: section;
-    content: counters(section,".") ". ";
-  }
+  // Same as h2
+  font-size: 1.5em;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: normal;
 }
 
 .breadcrumb {
