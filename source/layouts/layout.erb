@@ -15,10 +15,24 @@
   <body class="<%= page_classes %>">
     <%= yield %>
 
+    <hr style="display:none">
+
     <footer class="dark-screen">
-      <div class="text">
-        <p class="center">License <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
-      </div>
+      <p>
+        <a href="/en/about.html">About</a>
+        |
+        <a href="/en/data.html">Data</a>
+        |
+        <a id="contact" href="mailto:contact@">Contact</a>
+      </p>
+      <p>
+        License <a href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>,
+        Version <a href="https://github.com/vinc/goelo.eu/">0.0.1</a>
+      </p>
     </footer>
+    <script>
+      var e = document.getElementById("contact");
+      e.setAttribute("href", e.getAttribute("href") + document.domain);
+    </script>
   </body>
 </html>
